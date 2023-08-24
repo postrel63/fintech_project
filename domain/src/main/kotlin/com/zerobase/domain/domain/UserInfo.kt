@@ -22,6 +22,7 @@ class UserInfo(
     @Column(name = "usr_icm_amt")
     val userIncomeAmount: Long
 ) {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long? = null
