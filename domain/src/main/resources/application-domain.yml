@@ -14,3 +14,4 @@ spring:
   redis:
     host: fintech-redis
     port: 6379
+
